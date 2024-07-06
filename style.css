@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #046e8f;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+header {
+    background-image: url('background.jpg');
+    background-size: cover;
+}
+
+header h1 {
+    font-size: 3em;
+}
+
+header p {
+    font-size: 1.5em;
+}
+
+.day {
+    background-color: #055c75;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#featured-slider {
+    background-color: #fff;
+    color: #046e8f;
+    padding: 40px 20px;
+}
+
+#speakers .card {
+    background-color: #055c75;
+    border: none;
+    margin: 10px 0;
+    border-radius: 20%;
+}
+
+#speakers .card img {
+    border-radius: 10px 10px 0 0;
+}
+
+#speakers .card-body {
+    background-color: #055c75;
+}
+
+
+
+#location {
+    background-color: #046e8f;
+}
+
+#location img {
+    margin: 10px 0;
+}
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1);
+}
+
+.carousel-item{
+height: 100%;
+}
+
+
+
+.carousel-control-prev,
+.carousel-control-next {
+    transition: opacity 0.3s ease;
+}
+
+.google-maps {
+
+    position: relative;
+
+    padding-bottom: 75%;
+
+    height: 0;
+
+    overflow: hidden;
+
+}
+
+.google-maps iframe {
+
+    position: absolute;
+
+    top: 0;
+
+    left: 0;
+
+    width: 100% !important;
+
+    height: 100% !important;
+
+}
+
+.carousel-item img {
+    max-height: 300px;
+    object-fit: cover;
+}
+
+.day {
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+}
+
+.day-one {
+    background-color: #f8f9fa;
+}
+
+.day-two {
+    background-color: #e9ecef;
+}
+
+.day-three {
+    background-color: #dee2e6;
+}
+
+.day-four {
+    background-color: #ced4da;
+}
+
+h1, h2 {
+    font-family: 'Georgia', serif;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}

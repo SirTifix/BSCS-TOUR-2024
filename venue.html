@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venue Information</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles.css">
+    <style>
+        .separator {
+            border-top: 1px solid #ddd;
+            margin: 40px 0;
+        }
+        .header, .subheader {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .place-name {
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        .map {
+            height: 300px;
+            width: 100%;
+        }
+
+        .venue img{
+            height: 20em;
+            width: 20em;
+            
+
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="bg-dark text-white text-center py-3">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">
+                <img src="./img/better logo.png" alt="Logo" style="width: 190px; height: 55px;">
+                
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./schedule.html">Schedule</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./speakers.html">Speakers</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#location">Venue</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class=" venue container my-5">
+        <!-- Header and Subheader -->
+        <div class="header">
+            <h1>Venue Information</h1>
+        </div>
+        <div class="subheader">
+            <p class="lead">Discover the amazing places we visited during our tour!</p>
+        </div>
+
+        <!-- Place Information -->
+        <div class="row mb-5">
+            <div class="col-md-6">
+                <img src="./img/SUBIC PAGASA.jpg" class="img-fluid" alt="Place Image">
+                <h3 class="place-name">PAGASA Weather Station</h3>
+                <p>Building 8050 Old Terminal, Argonaut Highway, Cubi Point, Subic Bay Freeport Zone 2222, Morong, Bataan</p>
+            </div>
+            <div class="col-md-6">
+                <div class="description">
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d773.5255471698695!2d120.27030652105259!3d14.79173074297366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x339673e1a664d695%3A0xcc3c83bf3a256460!2sSubic%20Bay%20International%20Airport%20PAGASA%20-%20Weather%20Office%20-%20SBMA!5e0!3m2!1sen!2sph!4v1720212439982!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        </div>
+            </div>
+        </div>
+
+        <!-- Repeat for Other Places -->
+        <div class="row mb-5">
+                <div class="col-md-6">
+                <img src="./img/FAFA.jpg" class="img-fluid" alt="Place Image">
+                <h3 class="place-name">First Aviation Academy</h3>
+                <p>Subic Bay International Airport, Subic Bay, Olongapo City, Zambales, Subic Bay Freeport Zone, Bataan</p>
+                </div>
+            <div class="col-md-6">
+                <div class="description">
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1754.842646759743!2d120.27000644091962!3d14.79128883196677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3396718150945b3d%3A0x4b6f605fea257dcd!2sFirst%20Aviation%20Academy!5e0!3m2!1sen!2sph!4v1720212603520!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            </div>
+            </div>
+
+        <div class="row mb-5">
+            <div class="col-md-6">
+                <img src="./img/PORT.jpg" class="img-fluid" alt="Place Image">
+                <h3 class="place-name">Vessel Traffic Management System</h3>
+                <p>Subic Bay Freeport Zone, Zambales</p>
+            </div>
+            <div class="col-md-6">
+                    <div class="description">
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1928.5866672036955!2d120.28237218173636!3d14.815526817724972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3396716d2ec45459%3A0x750944287c906800!2sPort%20Of%20Subic%20Bay!5e0!3m2!1sen!2sph!4v1720213434804!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        </div>
+
+        <div class="row mb-5">
+            <div class="col-md-6">
+                <img src="./img/QBO.jpg" class="img-fluid" alt="Place Image">
+                <h3 class="place-name">QBO Innovation Hub
+                </h3>
+                <p>375 Sen. Gil J. Puyat Ave, Makati, 1209 Metro Manila</p>
+            </div>
+            <div class="col-md-6">
+                <div class="description">
+                </div>               
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1500.6540493925424!2d121.02918534611462!3d14.560417373419758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c900f2161131%3A0x929312216d6fcc29!2sQBO%20Innovation%20Hub!5e0!3m2!1sen!2sph!4v1720213792862!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        </div>
+
+        <div class="row mb-5">
+            <div class="col-md-6">
+                <img src="./img/packet.jpg" class="img-fluid" alt="Place Image">
+                <h3 class="place-name">PacketWorx INC.-IOT Technologies Hub</h3>
+                <p>G/F, iSquare Bldg, 15 Meralco Ave, Ortigas Center, Pasig, 1605 Metro Manila</p>
+            </div>
+            <div class="col-md-6">
+                <div class="description">
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.237547256828!2d121.0636648!3d14.5855356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c9a4a1982bd9%3A0xe1e7227208bd9247!2sPacketworx%20Inc%20-%20IoT%20Technology%20Hub!5e0!3m2!1sen!2sph!4v1720213953071!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            </div>
+        </div>
+
+        <div class="row mb-5">
+            <div class="col-md-6">
+                <img src="./img/LRT.jpg" class="img-fluid" alt="Place Image">
+                <h3 class="place-name">LRT Authority Line 2</h3>
+                <p>J39P+QFV, Marikina, 1800 Metro Manila</p>
+            </div>
+            <div class="col-md-6">
+                <div class="description">
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d824.4871662807459!2d121.08518011555115!3d14.619351264463615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b823db2abd7f%3A0xb3c334cc1b3ae9c5!2sLight%20Rail%20Transit%20Authority-%20Line%202%20Depot!5e0!3m2!1sen!2sph!4v1720214135831!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            </div>
+        </div>
+
+        <div class="row mb-5">
+            <div class="col-md-6">
+                <img src="./img/FAM@.jpg" class="img-fluid" alt="Place Image">
+                <h3 class="place-name"> Museum of the Philippines</h3>
+                <p>Padre Burgos Ave, Ermita, 1000 Metro Manila</p>
+            </div>
+            <div class="col-md-6">
+                <div class="description">
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d682.5727563481304!2d120.98080011578246!3d14.586857922110037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397ca23d0569b6b%3A0xcfc70cbb93eae02a!2sNational%20Museum%20of%20Fine%20Arts!5e0!3m2!1sen!2sph!4v1720214232952!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            </div>
+        </div>
+
+        <div class="row mb-5">
+            <div class="col-md-6">
+                <img src="./img/labs.jpg" class="img-fluid" alt="Place Image">
+                <h3 class="place-name"> 98 LABS INC.</h3>
+                <p>98, 1227 V.A. Rufino St, Makati, Metro Manila</p>
+            </div>
+            <div class="col-md-6">
+                <div class="description">
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d799.133996623945!2d121.01910377372839!3d14.559073913304681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c908d0d55acf%3A0x3a25821d4166359!2s98Labs%2C%20Inc.!5e0!3m2!1sen!2sph!4v1720214371528!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            </div>
+        </div>
+
+        <div class="row mb-5">
+            <div class="col-md-6">
+                <img src="./img/hi.jpg" class="img-fluid" alt="Place Image">
+                <h3 class="place-name">Hytec Power INC. </h3>
+                <p>Cruzville Subdivision, Quezon City, Novaliches.</p>
+            </div>
+            <div class="col-md-6">
+                <div class="description">
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241.16509836114284!2d121.0476368674591!3d14.73284520000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b05aff953619%3A0xa8e475f45adcece3!2sHytec%20Power%20Incorporated!5e0!3m2!1sen!2sph!4v1720214477962!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            </div>
+        </div>
+
+        <!-- Separator -->
+        <div class="separator"></div>
+
+        <!-- Exploring Our Vacation Area -->
+        <section id="exploring text-center d-flex justify-content-around align-items-center">
+            <h2 class="text-center d-flex justify-content-around align-items-center">The City of Baguio</h2>
+            <div class="row text-center d-flex justify-content-around align-items-center">
+                <div class="col-md-4 mb-4">
+                    <img src="./img/bag1.jpeg" class="img-fluid" alt="Place 1">
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="./img/bag2.jpeg" class="img-fluid" alt="Place 2">
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="./img/bag3.jpeg" class="img-fluid" alt="Place 3">
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="./img/bag4.jpeg" class="img-fluid" alt="Place 4">
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="./img/bag5.jpeg" class="img-fluid" alt="Place 5">
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="./img/bag6.jpeg" class="img-fluid" alt="Place 6">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 SALUDO. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

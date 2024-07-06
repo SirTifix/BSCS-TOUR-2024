@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Speakers</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <style>
+      .speaker-card {
+        margin-bottom: 20px;
+        text-align: center;
+      }
+
+      .speaker-card img {
+        width: 100%;
+        height: 80%;
+        transition: transform 0.3s ease;
+      }
+
+      .speaker-card img:hover {
+        transform: scale(1.05);
+      }
+
+      .speaker-details {
+        text-align: center;
+        margin-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .speaker-details img {
+        width: 200px; /* Adjust this based on your design needs */
+        height: auto; /* Ensures image aspect ratio is maintained */
+        border-radius: 50%;
+        margin-bottom: 20px;
+      }
+
+      .speaker-details h3 {
+        margin-bottom: 10px;
+      }
+
+      .speaker-details p {
+        margin-bottom: 10px;
+        overflow: hidden; /* Hide overflowing text */
+      }
+
+      .separator {
+        border-top: 1px solid #ddd;
+        margin: 40px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header class="bg-dark text-white text-center py-3">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+          <img
+            src="./img/better logo.png"
+            alt="Logo"
+            style="width: 190px; height: 55px"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./schedule.html">Schedule</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">Speakers</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="./venue.html">Venue</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container my-5">
+      <!-- Headline -->
+      <div class="header text-center">
+        <h1>Speakers of the Tour</h1>
+      </div>
+
+      <!-- Speaker Placements -->
+      <div class="row">
+        <div class="col-md-3 speaker-card">
+          <img
+            src="./img/Arnel Gonzales.jpg"
+            class="img-fluid"
+            alt="Speaker 1"
+          />
+          <h4>Arnel G. Gonzales</h4>
+        </div>
+        <div class="col-md-3 speaker-card">
+          <img src="./img/Dave.jpg" class="img-fluid" alt="Speaker 2" />
+          <h4>Dave Del Rosario</h4>
+        </div>
+        <div class="col-md-3 speaker-card">
+          <img
+            src="./img/barko speaker.jpg"
+            class="img-fluid"
+            alt="Speaker 3"
+          />
+          <h4>Jerome Saddi</h4>
+        </div>
+        <div class="col-md-3 speaker-card">
+          <img src="./img/speaker 3.jpg" class="img-fluid" alt="Speaker 4" />
+          <h4>Karla Legaspi</h4>
+        </div>
+        <div class="col-md-3 speaker-card">
+          <img
+            src="img/Rose Ann Caraan.jpg"
+            class="img-fluid"
+            alt="Speaker 5"
+          />
+          <h4>Rose Ann Caraan</h4>
+        </div>
+        <div class="col-md-3 speaker-card">
+          <img src="img/adrian saldana.jpg" class="img-fluid" alt="Speaker 6" />
+          <h4>Adrian Saldana</h4>
+        </div>
+        <div class="col-md-3 speaker-card">
+          <img src="img/berna.jpeg" class="img-fluid" alt="Speaker 7" />
+          <h4>Bernadine P. Bernadino</h4>
+        </div>
+        <div class="col-md-3 speaker-card">
+          <img src="img/brian tan.jpg" class="img-fluid" alt="Speaker 8" />
+          <h4>Brian Tan Seng</h4>
+        </div>
+      </div>
+
+      <!-- Separator -->
+      <div class="separator"></div>
+
+      <!-- Detailed Speaker Section -->
+      <section id="detailed-speakers" class="my-5">
+        <h2 class="text-center">Meet Our Speakers</h2>
+        <div class="row">
+          <div class="col-md-6 col-lg-4 speaker-details">
+            <img src="img/Arnel Gonzales.jpg" alt="Speaker 1" />
+            <h3>Arnel G. Gonzales</h3>
+            <p>
+              Sir Arnel discussed to us about how operations to know what will
+              be the weather for the next days, weeks, and months and how it is
+              determined which is by their software and hardware and also the
+              directions of the winds and These knowledges helps them to predict
+              the weather patterns. He also showcased to us the different types
+              of machines that they can and or use to be able to identify
+              collect and gather data for analysis of the weather.
+            </p>
+          </div>
+          <div class="col-md-6 col-lg-4 speaker-details">
+            <img src="img/Dave.jpg" alt="Speaker 2" />
+            <h3>Dave Del Rosario</h3>
+            <p>
+              An FAA staff Sir Dave guided and instructed us on the school's
+              software and hardware uses, which teaches students how to operate
+              airplanes through simulation without actual flight. They detailed
+              the software and hardware features, such as providing a realistic
+              simulation of flying conditions to prepare students effectively.
+              As well as explaining about how to enroll and study in their
+              school.
+            </p>
+          </div>
+          <div class="col-md-6 col-lg-4 speaker-details">
+            <img src="img/barko speaker.jpg" alt="Speaker 3" />
+            <h3>Jerome Saddi</h3>
+            <p>
+              Sir Jerome is an engineer who taught us about locating incoming and outgoing ships,
+              measuring their distance, and ensuring they stay within designated
+              boundaries. This tracking is crucial for the safety and security
+              of ships, as well as for predicting their arrival times, which
+              aids in developing predictive patterns for future planning
+              purposes. He has also shared about the different areas within 
+              Subic Bay and how they were formed and how big and how deep they are
+              compared from one to another.
+            </p>
+          </div>
+          <div class="col-md-6 col-lg-4 speaker-details">
+            <img src="img/speaker 3.jpg" alt="Speaker 4" />
+            <h3>Karla Legaspi</h3>
+            <p>
+              Ma'am Karla explained her company's mission, the roles they
+              require, and clarified what startups are—companies or individuals
+              just beginning their ventures. She emphasized their interest in
+              recruiting fresh graduates to foster a startup environment and
+              welcomed them enthusiastically. As they fully support innovative
+              thinkers with creative minds who can think of fun ideas that can
+              be made into reality.
+            </p>
+          </div>
+          <div class="col-md-6 col-lg-4 speaker-details">
+            <img src="img/Rose Ann Caraan.jpg" alt="Speaker 5" />
+            <h3>Rose Ann Caraan</h3>
+            <p>
+              Ma'am Rose explained their company's focus, operations, and
+              collaborations with other companies. Their purpose is developing
+              IoT devices, which is to connect to multiple devices to enhance
+              functionality and make life easier. She showcased their advanced
+              IoT products, emphasizing their potential to address modern
+              challenges. Additionally, she clarified the role of hardware in
+              collecting data, which is stored in an online dashboard on their
+              website for future research and analysis, highlighting its
+              practical utility.
+            </p>
+          </div>
+          <div class="col-md-6 col-lg-4 speaker-details">
+            <img src="img/adrian saldana.jpg" alt="Speaker 6" />
+            <h3>Adrian Saldana</h3>
+            <p>
+              Sir Adrian taught us about train operations, safety precautions,
+              and the do's and don'ts for passenger safety. He showed us their
+              software for tracking trains and explained the technical details
+              of the rails. Sir Adrian also taught us about how important it is 
+              to be mindful of our actions espcially during in the workplace
+              because one small mistake could lead to bigger problems.
+            </p>
+          </div>
+          <div class="col-md-6 col-lg-4 speaker-details">
+            <img src="img/berna.jpeg" alt="Speaker 7" />
+            <h3>Bernadine P. Bernadino</h3>
+            <p>
+              Ma'am Bernadine our speaker in the Museum of the Philippines a
+              very well educated speaker of ours shared about the history of the
+              famous Artwork called Spolarium a painting by Juan Luna a very detailed 
+              story on its history and facts about how it became how it is now.
+            </p>
+          </div>
+          <div class="col-md-6 col-lg-4 speaker-details">
+            <img src="img/brian tan.jpg" alt="Speaker 8" />
+            <h3>Brian Tan Seng</h3>
+            <p>
+              Sir Brian Tan Seng is the CEO of 98Labs Incorporation, a company
+              specializing in creating websites and software for various
+              businesses. They have developed products tailored to different
+              companies, focusing primarily on software product development.
+            </p>
+          </div>
+          <div class="col-md-6 col-lg-4 speaker-details">
+            <img src="img/Gretchel Listana.png" alt="Speaker 8" />
+            <h3>Gretchel Listana</h3>
+            <p>
+              Ma'am Gretchel discussed her company's focus on using AI and
+              robots to assist humans in daily life. She highlighted their
+              advanced usage and application of VR and AR technology, allowing
+              students to virtually simulate real life scenarios like simulating
+              welding and viewing parts piece by piece. This ensures student
+              safety and saves money. She also showcased various advanced
+              inventions from the company, which are particularly beneficial for
+              students and the people.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3">
+      <p>&copy; 2024 SALUDO. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
